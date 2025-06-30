@@ -1,5 +1,5 @@
 import profilePic from "../assets/Pic.jpeg";
-import SyaamilGroup from "../assets/Syaamil.png";
+import SyaamilGroup from "../assets/syaamil.png";
 import LearningX from "../assets/learningx.png";
 import Unikom from "../assets/unikom.png";
 import Skills from "../data/Skills";
