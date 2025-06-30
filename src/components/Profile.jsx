@@ -76,7 +76,9 @@ export default function Profile() {
             title="Syaamil Group"
             position="Intern Frontend Developer"
             date="Feb 2025 - Jun 2025"
-            description="Berkontribusi dalam pengembangan UI website LMS internal perusahaan menggunakan HTML, CSS, JavaScript, dan Bootstrap."
+            description="Contributed to the development of the company's internal LMS website UI using HTML, CSS, JavaScript, and Bootstrap.
+
+"
           />
 
           <Experience
@@ -84,7 +86,7 @@ export default function Profile() {
             title="Learning X | MSIB Batch 7"
             position="Fullstack Developer"
             date="Aug 2024 - Nov 2024"
-            description="Merancang dan mengembangkan website e-commerce mulai dari sisi frontend hingga backend menggunakan Flask (Python), MongoDB, dan Bootstrap."
+            description="Designed and developed an e-commerce website, handling both frontend and backend development using Flask (Python), MongoDB, and Bootstrap."
           />
         </ul>
       </section>
