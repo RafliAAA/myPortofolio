@@ -5,7 +5,7 @@
     
 
     return (
-      <div className="overflow-hidden bg-[#Fefcf6]">
+      <div className="overflow-hidden mb-10 bg-[#Fefcf6]">
         <Profile />
         <Navigation />
       </div>

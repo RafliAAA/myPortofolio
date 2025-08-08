@@ -15,7 +15,7 @@ function Experience({ logo, title, position, date, description }) {
           <img src={logo} alt={title} className="w-8 h-8 object-contain" />
           <div>
             <div className="flex items-center gap-1">
-              <h3 className="text-sm font-semibold">{title}</h3>
+              <h3 className="text-[12px] md:text-[14px] font-semibold">{title}</h3>
               <FaChevronRight
                 className={`text-gray-400 transition-transform duration-300 ${
                   isOpen
@@ -25,13 +25,13 @@ function Experience({ logo, title, position, date, description }) {
                 size={10}
               />
             </div>
-            <p className="text-xs mb-1 text-gray-600">{position}</p>
+            <p className="text-[10px] md:text-[12px] mb-1 text-gray-600">
+              {position}
+            </p>
           </div>
         </div>
-        <p className="text-xs text-gray-500">{date}</p>
+        <p className="text-[10px] md:text-[12px] text-gray-500">{date}</p>
       </div>
-
-      
 
       <AnimatePresence initial={false}>
         {isOpen && (
@@ -40,7 +40,7 @@ function Experience({ logo, title, position, date, description }) {
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.4, ease: "easeInOut" }}
-            className="overflow-hidden ml-12 text-xs text-gray-700"
+            className="overflow-hidden ml-12 text-[10px] md:text-[12px] text-gray-700 text-justify"
           >
             <p>{description}</p>
           </motion.div>

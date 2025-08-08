@@ -1,7 +1,6 @@
 import {
   FaHome,
   FaGithub,
-  FaSun,
   FaLinkedin,
   FaInstagram,
 } from "react-icons/fa";
@@ -32,7 +31,7 @@ function Navigation() {
         <FaLinkedin size={20} />
       </a>
       <a
-        href="https://instagram.com/raflieeea"
+        href="https://instagram.com/rafleeea"
         target="_blank"
         rel="noopener noreferrer"
         className="p-2 rounded-full hover:bg-gray-100 text-black transition duration-300 transform hover:scale-110"

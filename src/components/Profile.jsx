@@ -16,7 +16,7 @@ export default function Profile() {
           <h1 className=" md:text-3xl font-bold mb-2 text-2xl ">
             Hi, I'm Rafli <span className="inline-block">👋</span>
           </h1>
-          <p className="md:text-lg text-[16px] text-gray-600">
+          <p className="md:text-lg text-[14px] text-gray-600 text-justify">
             Software Engineer Wanna be. I love coding because it feels like
             solving puzzles.
           </p>
@@ -30,11 +30,11 @@ export default function Profile() {
 
       {/* About */}
       <section className="mt-8">
-        <h2 className="text-xl font-bold mb-2">About</h2>
-        <p className="text-gray-700">
+        <h2 className="text-xl font-bold mb-2 ">About</h2>
+        <p className="text-gray-700 text-justify">
           6th-semester Information Systems student at Universitas Komputer
           Indonesia with a strong interest in web development, particularly in
-          front-end. Skilled in JavaScript and Python frameworks, and committed
+          backend. Skilled in JavaScript and Python frameworks, and committed
           to continuous learning and growth to make meaningful contributions in
           the tech industry.
         </p>
@@ -52,16 +52,16 @@ export default function Profile() {
                 className="w-8 md:h-8 object-contain "
               />
               <div>
-                <h3 className="md:text-[16px] font-semibold text-[12px]">
+                <h3 className="md:text-[14px] font-semibold text-[12px]">
                   Universitas Komputer Indonesia
                 </h3>
-                <p className="md:text[16px] text-sm text-gray-600 text-[12px]">
+                <p className="md:text-[12px] text-[10px] text-gray-600">
                   Bachelor Degree Information System
                 </p>
               </div>
             </div>
-            <p className="md:text-sm text-[12px] text-gray-500">
-              Nov 2022 – Now
+            <p className=" text-[10px] md:text-[12px] text-gray-500">
+              Nov 2022 - Now
             </p>
           </li>
         </ul>
@@ -98,7 +98,7 @@ export default function Profile() {
           {Skills.map((Skill) => (
             <span
               key={Skill}
-              className="bg-black text-[12px] text-white p-1.5 rounded-xl font-semibold hover:opacity-80 "
+              className="bg-black text-[12px] text-white p-1.5 rounded-xl font-semibold hover:opacity-80 hover:cursor-default "
             >
               {Skill}
             </span>
@@ -117,12 +117,12 @@ export default function Profile() {
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full h-40 p-3 object-contain"
+                className="flex flex-wrap items-center justify-center w-full h-40  shrink"
               />
               <div className="p-3">
                 <h2 className="font-semibold text-[16px]">{project.title}</h2>
                 <p className="text-[12px] text-gray-700">{project.date}</p>
-                <p className="text-left text-[12px] text-gray-400">
+                <p className=" text-[12px] text-gray-400 text-justify">
                   {project.description}
                 </p>
 
