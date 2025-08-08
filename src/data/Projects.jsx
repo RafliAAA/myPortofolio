@@ -6,7 +6,7 @@ import Tribe from "../assets/sweetdessert.png"
 const Projects = [
   {
     title: "tribe",
-    date: "Jun 2025 - Present ",
+    date: "Jun 2025 - Present",
     description:
       "Designing and developing a streetwear fashion e-commerce platform with React, Vite, MongoDB, TailwindCSS, and Redis for caching.",
     image: Tribe,
