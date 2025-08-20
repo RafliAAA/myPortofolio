@@ -1,19 +1,21 @@
-import {
-  FaHome,
-  FaGithub,
-  FaLinkedin,
-  FaInstagram,
-} from "react-icons/fa";
+import { FaHome, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 function Navigation() {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
-    <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-4 z-50 items-center bg-white border border-gray-300 shadow-xl px-4 py-2 rounded-full  ">
-      <a
-        href="/"
+    <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-4 z-50 items-center bg-white border border-gray-300 shadow-xl px-4 py-2 rounded-full">
+      {/* Back to Top */}
+      <button
+        onClick={scrollToTop}
         className="p-2 rounded-full hover:bg-gray-100 text-black transition duration-300 transform hover:scale-110"
       >
         <FaHome size={20} />
-      </a>
+      </button>
+
+      {/* Github */}
       <a
         href="https://github.com/RafliAAA"
         target="_blank"
@@ -22,6 +24,8 @@ function Navigation() {
       >
         <FaGithub size={20} />
       </a>
+
+      {/* LinkedIn */}
       <a
         href="https://linkedin.com/in/raflia"
         target="_blank"
@@ -30,6 +34,8 @@ function Navigation() {
       >
         <FaLinkedin size={20} />
       </a>
+
+      {/* Instagram */}
       <a
         href="https://instagram.com/rafleeea"
         target="_blank"
@@ -38,7 +44,6 @@ function Navigation() {
       >
         <FaInstagram size={20} />
       </a>
-    
     </div>
   );
 }

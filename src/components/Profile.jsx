@@ -108,11 +108,11 @@ export default function Profile() {
 
       <section>
         <h2 className="font-bold text-xl mt-4">Projects</h2>
-        <div className="grid gap-6 mt-6 grid-cols-1 md:grid-cols-2 bg-[#Fefcf6]">
+        <div className="grid gap-6 mt-6 grid-cols-1 md:grid-cols-2 bg-[#Fefcf6] ">
           {Projects.map((project, index) => (
             <div
               key={index}
-              className="rounded-lg overflow-hidden border border-gray-300  shadow-sm"
+              className="rounded-lg overflow-hidden border border-gray-300  shadow-sm hover:shadow-md"
             >
               <img
                 src={project.image}
