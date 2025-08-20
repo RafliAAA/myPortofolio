@@ -5,7 +5,8 @@ import Unikom from "../assets/unikom.png";
 import Skills from "../data/Skills";
 import Projects from "../data/Projects";
 import Experience from "./Experience";
-import {FaGlobe} from "react-icons/fa"
+import {FaGlobe, FaGithub} from "react-icons/fa"
+
 
 export default function Profile() {
   return (
@@ -34,9 +35,9 @@ export default function Profile() {
         <p className="text-gray-700 text-justify">
           6th-semester Information Systems student at Universitas Komputer
           Indonesia with a strong interest in web development, particularly in
-          backend. Skilled in JavaScript and Python frameworks, and committed
-          to continuous learning and growth to make meaningful contributions in
-          the tech industry.
+          backend. Skilled in JavaScript and Python frameworks, and committed to
+          continuous learning and growth to make meaningful contributions in the
+          tech industry.
         </p>
       </section>
 
@@ -137,21 +138,39 @@ export default function Profile() {
                   ))}
                 </div>
 
-                {project.website && (
-                  <div className="mt-2">
-                    <a
-                      href={project.website}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-block bg-black text-[10px] text-white p-1.5 rounded-xl font-semibold hover:opacity-80"
-                    >
-                      <div className="flex items-center gap-1">
-                        <FaGlobe className="w-2.5 h-2.5" />
-                        Website
-                      </div>
-                    </a>
-                  </div>
-                )}
+                <div className="flex items-center gap-1">
+                  {project.website && (
+                    <div className="mt-2">
+                      <a
+                        href={project.website}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block bg-black text-[10px] text-white p-1.5 rounded-xl font-semibold hover:opacity-80"
+                      >
+                        <div className="flex items-center gap-1">
+                          <FaGlobe className="w-2.5 h-2.5" />
+                          Website
+                        </div>
+                      </a>
+                    </div>
+                  )}
+
+                  {project.github && (
+                    <div className="mt-2">
+                      <a
+                        href={project.website}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block bg-black text-[10px] text-white p-1.5 rounded-xl font-semibold hover:opacity-80"
+                      >
+                        <div className="flex items-center gap-1">
+                          <FaGithub className="w-2.5 h-2.5" />
+                          Source
+                        </div>
+                      </a>
+                    </div>
+                  )}
+                </div>
               </div>
             </div>
           ))}

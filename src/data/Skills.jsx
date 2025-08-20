@@ -10,6 +10,7 @@ const Skills = [
     'Bootstrap',
     'TailwindCSS',
     'Moodle',
+    'Laravel',
 ]
 
 export default Skills
