@@ -54,10 +54,10 @@ export default function Profile() {
                 className="w-8 md:h-8 object-contain "
               />
               <div>
-                <h3 className="md:text-[14px] font-semibold text-[12px]">
+                <h3 className="md:text-[14px] font-semibold text-[10px]">
                   Universitas Komputer Indonesia
                 </h3>
-                <p className="md:text-[12px] text-[10px] text-gray-600">
+                <p className="md:text-[12px] text-[8px] text-gray-600">
                   Bachelor Degree Information System
                 </p>
               </div>
@@ -85,9 +85,7 @@ export default function Profile() {
             title="Syaamil Group"
             position="Intern Frontend Developer"
             date="Feb 2025 - Jun 2025"
-            description="Contributed to the development of the company's internal LMS website UI using HTML, CSS, JavaScript, and Bootstrap.
-
-"
+            description="Contributed to the development of the company's internal LMS website UI using HTML, CSS, JavaScript, and Bootstrap."
           />
 
           <Experience
@@ -115,6 +113,7 @@ export default function Profile() {
         </div>
       </section>
 
+      {/* Projects */}
       <section>
         <h2 className="font-bold text-xl mt-4">Projects</h2>
         <div className="grid gap-6 mt-6 grid-cols-1 md:grid-cols-2 bg-[#Fefcf6] ">

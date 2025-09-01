@@ -15,7 +15,7 @@ function Experience({ logo, title, position, date, description }) {
           <img src={logo} alt={title} className="w-8 h-8 object-contain" />
           <div>
             <div className="flex items-center gap-1">
-              <h3 className="text-[12px] md:text-[14px] font-semibold">{title}</h3>
+              <h3 className="text-[10px] md:text-[14px] font-semibold">{title}</h3>
               <FaChevronRight
                 className={`text-gray-400 transition-transform duration-300 ${
                   isOpen
@@ -25,7 +25,7 @@ function Experience({ logo, title, position, date, description }) {
                 size={10}
               />
             </div>
-            <p className="text-[10px] md:text-[12px] mb-1 text-gray-600">
+            <p className="text-[8px] md:text-[12px] mb-1 text-gray-600">
               {position}
             </p>
           </div>
