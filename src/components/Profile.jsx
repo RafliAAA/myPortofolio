@@ -1,4 +1,5 @@
 import profilePic from "../assets/Pic.jpeg";
+import Disdik from "../assets/disdik.png"
 import SyaamilGroup from "../assets/syaamil.png";
 import LearningX from "../assets/learningx.png";
 import Unikom from "../assets/unikom.png";
@@ -33,7 +34,7 @@ export default function Profile() {
       <section className="mt-8">
         <h2 className="text-xl font-bold mb-2 ">About</h2>
         <p className="text-gray-700 text-justify">
-          6th-semester Information Systems student at Universitas Komputer
+          7th-semester Information Systems student at Universitas Komputer
           Indonesia with a strong interest in web development, particularly in
           backend. Skilled in JavaScript and Python frameworks, and committed to
           continuous learning and growth to make meaningful contributions in the
@@ -72,6 +73,15 @@ export default function Profile() {
       <section className="mt-8">
         <h2 className="text-xl font-bold mb-4">Experience</h2>
         <ul className="space-y-4 ">
+          <Experience
+            logo={Disdik}
+            title="Dinas Pendidikan Bandung Barat"
+            position="Fullstack Developer Intern"
+            date="Jul 2025 - Sep 2025"
+            description="Developing a system to support teacher administration. Focused on creating a feature for periodic salary increases for teachers and designing an interactive dashboard using Bootstrap. The backend was built with Laravel, and MySQL was used to manage and process teacher data efficiently.
+
+"
+          />
           <Experience
             logo={SyaamilGroup}
             title="Syaamil Group"
