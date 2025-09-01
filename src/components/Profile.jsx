@@ -76,11 +76,9 @@ export default function Profile() {
           <Experience
             logo={Disdik}
             title="Dinas Pendidikan Bandung Barat"
-            position="Fullstack Developer Intern"
+            position="Intern Fullstack Developer"
             date="Jul 2025 - Sep 2025"
-            description="Developing a system to support teacher administration. Focused on creating a feature for periodic salary increases for teachers and designing an interactive dashboard using Bootstrap. The backend was built with Laravel, and MySQL was used to manage and process teacher data efficiently.
-
-"
+            description="Developing a system to support teacher administration. Focused on creating a feature for periodic salary increases for teachers and designing an interactive dashboard using Bootstrap. The backend was built with Laravel, using MySQL as the database."
           />
           <Experience
             logo={SyaamilGroup}
@@ -109,7 +107,7 @@ export default function Profile() {
           {Skills.map((Skill) => (
             <span
               key={Skill}
-              className="bg-black text-[12px] text-white p-1.5 rounded-xl font-semibold hover:opacity-80 hover:cursor-default "
+              className="bg-black text-[11px] text-white p-1.5 rounded-xl font-semibold hover:opacity-80 hover:cursor-default "
             >
               {Skill}
             </span>
@@ -168,7 +166,7 @@ export default function Profile() {
                   {project.github && (
                     <div className="mt-2">
                       <a
-                        href={project.website}
+                        href={project.github}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-block bg-black text-[10px] text-white p-1.5 rounded-xl font-semibold hover:opacity-80"
