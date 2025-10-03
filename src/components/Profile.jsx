@@ -77,7 +77,7 @@ export default function Profile() {
             logo={Disdik}
             title="Dinas Pendidikan Bandung Barat"
             position="Intern Fullstack Developer"
-            date="Jul 2025 - Sep 2025"
+            date="Aug 2025 - Sep 2025"
             description="Developing a system to support teacher administration. Focused on creating a feature for periodic salary increases for teachers and designing an interactive dashboard using Bootstrap. The backend was built with Laravel, using MySQL as the database."
           />
           <Experience
