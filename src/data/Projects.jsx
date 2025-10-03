@@ -35,7 +35,7 @@ const Projects = [
   },
   {
     title: "Sweet Dessert",
-    date: "Nov 2024 - Des 2024",
+    date: "Sep 2024 - Des 2024",
     description:
       "Designed and developed an e-commerce website, handling both frontend and backend development using Flask (Python), MongoDB, and Bootstrap.",
     image: SweetDessert,
