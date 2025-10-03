@@ -92,7 +92,7 @@ export default function Profile() {
             logo={LearningX}
             title="Learning X | MSIB Batch 7"
             position="Fullstack Developer"
-            date="Aug 2024 - Nov 2024"
+            date="Sep 2024 - Des 2024"
             description="Designed and developed an e-commerce website, handling both frontend and backend development using Flask (Python), MongoDB, and Bootstrap."
           />
         </ul>
