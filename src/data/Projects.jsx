@@ -21,7 +21,7 @@ const Projects = [
       "Developed a modern and responsive company profile website for a premium chocolate brand, showcasing products and brand story.",
     image: Xiujank,
     techStack: ["React", "Vite", "TailwindCSS"],
-    website: "https://xi-uujank.my.id/",
+    website: "https://xi-u-jank.vercel.app/",
     github: "https://github.com/RafliAAA/XI-U-JANK",
   },
   {
@@ -47,7 +47,7 @@ const Projects = [
     date: "Jul 2025 - Present",
     description:
       "Designing and developing a streetwear fashion e-commerce platform with React, Vite, MongoDB, TailwindCSS, and Redis for caching.",
-    image:[Tribe],
+    image: [Tribe],
     techStack: ["React", "Express", "TailwindCSS", "Redis", "MongoDB"],
     github: "https://github.com/RafliAAA/tribe/",
   },
