@@ -35,8 +35,7 @@ export default function Profile() {
         <h2 className="text-xl font-bold mb-2 ">About</h2>
         <p className="text-gray-700 text-justify">
           7th-semester Information Systems student at Universitas Komputer
-          Indonesia with a strong interest in web development, particularly in
-          backend. Skilled in JavaScript and Python frameworks, and committed to
+          Indonesia with a strong interest in web development. Skilled in JavaScript and Python frameworks, and committed to
           continuous learning and growth to make meaningful contributions in the
           tech industry.
         </p>
