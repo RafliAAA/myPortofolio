@@ -3,6 +3,7 @@ import SweetDessert from "../assets/sweetdessert.png";
 import Xiujank from "../assets/xiujank.png";
 import Tribe from "../assets/progress.png";
 import Petadik from "../assets/petadik.jpg";
+import TanyaKampus from "../assets/tanyakampus.jpeg";
 
 const Projects = [
   {
@@ -43,20 +44,11 @@ const Projects = [
     github: "https://github.com/hadimughny7/SweetDessertWeb",
   },
   {
-    title: "tribe",
-    date: "Jul 2025 - Present",
-    description:
-      "Designing and developing a streetwear fashion e-commerce platform with React, Vite, MongoDB, TailwindCSS, and Redis for caching.",
-    image: [Tribe],
-    techStack: ["React", "Express", "TailwindCSS", "Redis", "MongoDB"],
-    github: "https://github.com/RafliAAA/tribe/",
-  },
-  {
     title: "Tanya Kampus",
-    date: "Nov 2025 - Now",
+    date: "Nov 2025 - Present",
     description:
-      "Designing and developing a streetwear fashion e-commerce platform with React, Vite, MongoDB, TailwindCSS, and Redis for caching.",
-    image: [Tribe],
+      "a web app helping students find suitable universities and majors through aptitude tests. Served as backend developer, designing database schema and APIs to support recommendations.",
+    image: [TanyaKampus],
     techStack: ["React", "Express", "TailwindCSS", "Typescript", "Mysql"],
     github: "https://github.com/orgs/TanyaKampus/repositories",
     website: "https://tanyakampus.vercel.app/",
