@@ -4,11 +4,11 @@ const Skills = [
     'Express',
     'NodeJS',
     'MongoDB',
-    'Redis',
+    'Typescript',
     'Flask',
     'MySQL',
     'Bootstrap',
-    'TailwindCSS',
+    'Tailwind',
     'Moodle',
     'Laravel',
 ]
