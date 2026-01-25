@@ -51,6 +51,16 @@ const Projects = [
     techStack: ["React", "Express", "TailwindCSS", "Redis", "MongoDB"],
     github: "https://github.com/RafliAAA/tribe/",
   },
+  {
+    title: "Tanya Kampus",
+    date: "Nov 2025 - Now",
+    description:
+      "Designing and developing a streetwear fashion e-commerce platform with React, Vite, MongoDB, TailwindCSS, and Redis for caching.",
+    image: [Tribe],
+    techStack: ["React", "Express", "TailwindCSS", "Typescript", "Mysql"],
+    github: "https://github.com/orgs/TanyaKampus/repositories",
+    website: "https://tanyakampus.vercel.app/",
+  },
 ];
 
 export default Projects;
