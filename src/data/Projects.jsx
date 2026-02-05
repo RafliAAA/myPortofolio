@@ -49,7 +49,7 @@ const Projects = [
     description:
       "a web app helping students find suitable universities and majors through aptitude tests. Served as backend developer, designing database schema and APIs to support recommendations.",
     image: [TanyaKampus],
-    techStack: ["React", "Express", "TailwindCSS", "Typescript", "Mysql"],
+    techStack: ["React", "Express", "TailwindCSS", "Typescript", "Cloudinary", "Mysql"],
     github: "https://github.com/orgs/TanyaKampus/repositories",
     website: "https://tanyakampus.vercel.app/",
   },
