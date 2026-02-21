@@ -1,11 +1,27 @@
 import LMS from "../assets/lms.png";
 import SweetDessert from "../assets/sweetdessert.png";
 import Xiujank from "../assets/xiujank.png";
-import Tribe from "../assets/progress.png";
 import Petadik from "../assets/petadik.jpg";
 import TanyaKampus from "../assets/tanyakampus.jpeg";
 
 const Projects = [
+  {
+    title: "Tanya Kampus",
+    date: "Nov 2025 - Present",
+    description:
+      "a web app helping students find suitable universities and majors through aptitude tests. Served as backend developer, designing database schema and APIs to support recommendations.",
+    image: [TanyaKampus],
+    techStack: [
+      "React",
+      "Express",
+      "TailwindCSS",
+      "Typescript",
+      "Cloudinary",
+      "Mysql",
+    ],
+    github: "https://github.com/orgs/TanyaKampus/repositories",
+    website: "https://tanyakampus.vercel.app/",
+  },
   {
     title: "PETADIK",
     date: "Aug 2025 - Sep 2025",
@@ -42,16 +58,6 @@ const Projects = [
     image: SweetDessert,
     techStack: ["Flask", "MongoDB", "Bootstrap"],
     github: "https://github.com/hadimughny7/SweetDessertWeb",
-  },
-  {
-    title: "Tanya Kampus",
-    date: "Nov 2025 - Present",
-    description:
-      "a web app helping students find suitable universities and majors through aptitude tests. Served as backend developer, designing database schema and APIs to support recommendations.",
-    image: [TanyaKampus],
-    techStack: ["React", "Express", "TailwindCSS", "Typescript", "Cloudinary", "Mysql"],
-    github: "https://github.com/orgs/TanyaKampus/repositories",
-    website: "https://tanyakampus.vercel.app/",
   },
 ];
 
