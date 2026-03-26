@@ -1,4 +1,4 @@
-import profilePic from "../assets/Picture.png";
+import profilePic from "../assets/picture.png";
 import Disdik from "../assets/disdik.png"
 import SyaamilGroup from "../assets/syaamil.png";
 import LearningX from "../assets/learningx.png";
