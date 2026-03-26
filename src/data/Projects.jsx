@@ -9,7 +9,7 @@ const Projects = [
     title: "Tanya Kampus",
     date: "Nov 2025 - Present",
     description:
-      "a web app helping students find suitable universities and majors through aptitude tests. Served as backend developer, designing database schema and APIs to support recommendations.",
+      "a web app helping students find suitable universities and majors through aptitude tests. Served as backend developer, designing APIs to support recommendations.",
     image: [TanyaKampus],
     techStack: [
       "React",
@@ -18,6 +18,7 @@ const Projects = [
       "Typescript",
       "Cloudinary",
       "Mysql",
+      "Prisma",
     ],
     github: "https://github.com/orgs/TanyaKampus/repositories",
     website: "https://tanyakampus.vercel.app/",
@@ -26,9 +27,9 @@ const Projects = [
     title: "PETADIK",
     date: "Aug 2025 - Sep 2025",
     description:
-      "Focused on creating a feature for periodic salary increases for teachers and designing an interactive dashboard using Bootstrap.",
+      "Focused on creating a feature for periodic salary increases for teachers and designing an interactive dashboard using Bootstrap to improve efficiency and user experience.",
     image: Petadik,
-    techStack: ["Laravel", "Bootstrap", "MySQL"],
+    techStack: ["PHP", "Laravel", "Bootstrap", "MySQL", "Blade", "Eloquent"],
     website: "https://disdikkbb.org/petadik/",
   },
   {

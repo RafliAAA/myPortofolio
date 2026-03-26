@@ -1,4 +1,4 @@
-import profilePic from "../assets/ProfilePicture.jpg";
+import profilePic from "../assets/Picture.png";
 import Disdik from "../assets/disdik.png"
 import SyaamilGroup from "../assets/syaamil.png";
 import LearningX from "../assets/learningx.png";
@@ -26,18 +26,18 @@ export default function Profile() {
         <img
           src={profilePic}
           alt="Rafli"
-          className="w-28 h-28 rounded-full object-cover"
+          className="w-28 h-28 rounded-full object-cover object-center shrink-0 "
         />
       </div>
 
       {/* About */}
       <section className="mt-8">
         <h2 className="text-xl font-bold mb-2 ">About</h2>
-        <p className="text-gray-700 text-justify">
-          7th-semester Information Systems student at Universitas Komputer
-          Indonesia with a strong interest in web development. Skilled in JavaScript and Python frameworks, and committed to
-          continuous learning and growth to make meaningful contributions in the
-          tech industry.
+        <p className="text-gray-700 text-justify  text-[14px] md:text-lg">
+          8th-semester Information Systems student at Universitas Komputer
+          Indonesia with a strong interest in web development. Skilled in
+          JavaScript and Python frameworks, and committed to continuous learning
+          and growth to make meaningful contributions in the tech industry.
         </p>
       </section>
 
@@ -115,7 +115,7 @@ export default function Profile() {
       {/* Projects */}
       <section>
         <h2 className="font-bold text-xl mt-4">Projects</h2>
-        <div className="grid gap-6 mt-6 grid-cols-1 md:grid-cols-2 bg-[#Fefcf6] ">
+        <div className="grid gap-6 mt-6 grid-cols-1 md:grid-cols-2 bg-[#Fefcf6]">
           {Projects.map((project, index) => (
             <div
               key={index}

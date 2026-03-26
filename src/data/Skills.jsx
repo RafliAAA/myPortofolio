@@ -11,6 +11,9 @@ const Skills = [
     'Tailwind',
     'Moodle',
     'Laravel',
+    'Postman',
+    'Git',
+    'Prisma'
 ]
 
 export default Skills
