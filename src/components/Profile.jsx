@@ -18,9 +18,12 @@ export default function Profile() {
           <h1 className=" md:text-3xl font-bold mb-2 text-2xl ">
             Hi, I'm Rafli <span className="inline-block">👋</span>
           </h1>
-          <p className="md:text-lg text-[14px] text-gray-600 text-justify">
+          {/* <p className="md:text-lg text-[14px] text-gray-600 text-justify">
             Software Engineer Wanna be. I love coding because it feels like
             solving puzzles.
+          </p> */}
+          <p className="md:text-lg text-[14px] text-gray-600 text-justify">
+            Technology Enthusiast. Always curious, always learning.
           </p>
         </div>
         <img
@@ -35,9 +38,11 @@ export default function Profile() {
         <h2 className="text-xl font-bold mb-2 ">About</h2>
         <p className="text-gray-700 text-justify  text-[14px] md:text-lg">
           8th-semester Information Systems student at Universitas Komputer
-          Indonesia with a strong interest in web development. Skilled in
-          JavaScript and Python frameworks, and committed to continuous learning
-          and growth to make meaningful contributions in the tech industry.
+          Indonesia with experience in information systems development and
+          digital solution implementation. Experienced in collaborating within
+          teams, analyzing user requirements, and demonstrating strong attention
+          to detail, problem-solving skills, and a strong willingness to
+          continuously learn and adapt to new challenges.
         </p>
       </section>
 
@@ -72,6 +77,13 @@ export default function Profile() {
       <section className="mt-8">
         <h2 className="text-xl font-bold mb-4">Experience</h2>
         <ul className="space-y-4 ">
+          <Experience
+            logo={SyaamilGroup}
+            title="Syaamil Group"
+            position="Freelance Fullstack Developer"
+            date="Mei 2026 - Now"
+            description="A web-based Asset Management System designed to support General Affairs operations. Features include asset procurement, handover, borrowing, returns, maintenance, disposal, and room booking, enabling more efficient and organized asset management."
+          />
           <Experience
             logo={Disdik}
             title="Dinas Pendidikan Bandung Barat"

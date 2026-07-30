@@ -3,8 +3,26 @@ import SweetDessert from "../assets/sweetdessert.png";
 import Xiujank from "../assets/xiujank.png";
 import Petadik from "../assets/petadik.jpg";
 import TanyaKampus from "../assets/tanyakampus.jpeg";
+import GeneralAffair from "../assets/generalaffair.png"
 
 const Projects = [
+  {
+    title: "Asset Management System",
+    date: "Mei 2025 - Present",
+    description:
+      "a web app helping students find suitable universities and majors through aptitude tests. Served as backend developer, designing APIs to support recommendations.",
+    image: [GeneralAffair],
+    techStack: [
+      "React",
+      "Express",
+      "TailwindCSS",
+      "Typescript",
+      "Supabase",
+      "Mysql",
+      "Prisma",
+    ],
+    github: "https://github.com/RafliAAA/web-general-affair",
+  },
   {
     title: "Tanya Kampus",
     date: "Nov 2025 - Present",
