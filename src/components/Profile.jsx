@@ -1,13 +1,12 @@
 import profilePic from "../assets/picture.png";
-import Disdik from "../assets/disdik.png"
+import Disdik from "../assets/disdik.png";
 import SyaamilGroup from "../assets/syaamil.png";
 import LearningX from "../assets/learningx.png";
 import Unikom from "../assets/unikom.png";
 import Skills from "../data/Skills";
 import Projects from "../data/Projects";
 import Experience from "./Experience";
-import {FaGlobe, FaGithub} from "react-icons/fa"
-
+import { FaGlobe, FaGithub } from "react-icons/fa";
 
 export default function Profile() {
   return (
@@ -15,28 +14,25 @@ export default function Profile() {
       {/* Header */}
       <div className="flex flex-row md:flex-row md:items-center md:justify-between gap-6">
         <div>
-          <h1 className=" md:text-3xl font-bold mb-2 text-2xl ">
+          <h1 className="md:text-3xl font-bold mb-2 text-2xl">
             Hi, I'm Rafli <span className="inline-block">👋</span>
           </h1>
-          {/* <p className="md:text-lg text-[14px] text-gray-600 text-justify">
+           <p className="md:text-lg text-[14px] text-gray-600 text-justify">
             Software Engineer Wanna be. I love coding because it feels like
             solving puzzles.
-          </p> */}
-          <p className="md:text-lg text-[14px] text-gray-600 text-justify">
-            Technology Enthusiast. Always curious, always learning.
-          </p>
-        </div>
+          </p> 
+        </div> 
         <img
           src={profilePic}
           alt="Rafli"
-          className="w-28 h-28 rounded-full object-cover object-center shrink-0 "
+          className="w-28 h-28 rounded-full object-cover object-center shrink-0"
         />
       </div>
 
       {/* About */}
       <section className="mt-8">
-        <h2 className="text-xl font-bold mb-2 ">About</h2>
-        <p className="text-gray-700 text-justify  text-[14px] md:text-lg">
+        <h2 className="text-xl font-bold mb-2">About</h2>
+        <p className="text-gray-700 text-justify text-[14px] md:text-lg">
           8th-semester Information Systems student at Universitas Komputer
           Indonesia with experience in information systems development and
           digital solution implementation. Experienced in collaborating within
@@ -55,7 +51,7 @@ export default function Profile() {
               <img
                 src={Unikom}
                 alt="syaamilgroup"
-                className="w-8 md:h-8 object-contain "
+                className="w-8 md:h-8 object-contain"
               />
               <div>
                 <h3 className="md:text-[14px] font-semibold text-[10px]">
@@ -66,22 +62,22 @@ export default function Profile() {
                 </p>
               </div>
             </div>
-            <p className=" text-[10px] md:text-[12px] text-gray-500">
-              Nov 2022 - Now
+            <p className="text-[10px] md:text-[12px] text-gray-500">
+              Nov 2022 - Nov 2026
             </p>
           </li>
         </ul>
       </section>
 
-      {/*  Experience */}
+      {/* Experience */}
       <section className="mt-8">
         <h2 className="text-xl font-bold mb-4">Experience</h2>
-        <ul className="space-y-4 ">
+        <ul className="space-y-4">
           <Experience
             logo={SyaamilGroup}
             title="Syaamil Group"
             position="Freelance Fullstack Developer"
-            date="Mei 2026 - Now"
+            date="Mei 2026 - Aug 2026"
             description="A web-based Asset Management System designed to support General Affairs operations. Features include asset procurement, handover, borrowing, returns, maintenance, disposal, and room booking, enabling more efficient and organized asset management."
           />
           <Experience
@@ -98,7 +94,6 @@ export default function Profile() {
             date="Feb 2025 - Jun 2025"
             description="Contributed to the development of the company's internal LMS website UI using HTML, CSS, JavaScript, and Bootstrap."
           />
-
           <Experience
             logo={LearningX}
             title="Learning X | MSIB Batch 7"
@@ -116,7 +111,7 @@ export default function Profile() {
           {Skills.map((Skill) => (
             <span
               key={Skill}
-              className="bg-black text-[11px] text-white p-1.5 rounded-xl font-semibold hover:opacity-80 hover:cursor-default "
+              className="bg-black text-[11px] text-white p-1.5 rounded-xl font-semibold hover:opacity-80 hover:cursor-default"
             >
               {Skill}
             </span>
@@ -126,67 +121,61 @@ export default function Profile() {
 
       {/* Projects */}
       <section>
-        <h2 className="font-bold text-xl mt-4">Projects</h2>
-        <div className="grid gap-6 mt-6 grid-cols-1 md:grid-cols-2 bg-[#Fefcf6]">
+        <h2 className="font-bold text-xl mt-8 mb-4">Projects</h2>
+        <div className="grid gap-6 grid-cols-1 md:grid-cols-2 bg-[#Fefcf6]">
           {Projects.map((project, index) => (
             <div
               key={index}
-              className="rounded-lg overflow-hidden border border-gray-300  shadow-sm hover:shadow-md"
+              className="flex flex-col h-full rounded-lg overflow-hidden border border-gray-300 shadow-sm hover:shadow-md transition-shadow duration-200 bg-white"
             >
               <img
                 src={project.image}
                 alt={project.title}
-                className="flex flex-wrap items-center justify-center w-full h-40  shrink"
+                className="w-full h-40 object-cover shrink-0"
               />
-              <div className="p-3">
-                <h2 className="font-semibold text-[16px]">{project.title}</h2>
-                <p className="text-[12px] text-gray-700">{project.date}</p>
-                <p className=" text-[12px] text-gray-400 text-justify">
+              <div className="p-4 flex flex-col flex-1">
+                <h2 className="font-semibold text-base">{project.title}</h2>
+                <p className="text-xs text-gray-500 mb-2">{project.date}</p>
+
+                {/* 🌟 TAMBAHKAN line-clamp-3 agar deskripsi maksimal 3 baris */}
+                <p className="text-[12px] text-gray-600 text-justify mb-3">
                   {project.description}
                 </p>
 
-                <div className="flex flex-wrap gap-1 mt-2">
+                <div className="flex flex-wrap gap-1.5 mb-4">
                   {project.techStack.map((tech, idx) => (
                     <span
                       key={idx}
-                      className="bg-gray-100 text-[10px] text-gray-900 p-1.5 rounded-xl font-semibold"
+                      className="bg-gray-100 text-[10px] text-gray-900 px-2 py-1 rounded-md font-semibold"
                     >
                       {tech}
                     </span>
                   ))}
                 </div>
 
-                <div className="flex items-center gap-1">
+                <div className="flex items-center gap-2 mt-auto">
                   {project.website && (
-                    <div className="mt-2">
-                      <a
-                        href={project.website}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-block bg-black text-[10px] text-white p-1.5 rounded-xl font-semibold hover:opacity-80"
-                      >
-                        <div className="flex items-center gap-1">
-                          <FaGlobe className="w-2.5 h-2.5" />
-                          Website
-                        </div>
-                      </a>
-                    </div>
+                    <a
+                      href={project.website}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 bg-black text-[10px] text-white px-3 py-1.5 rounded-md font-semibold hover:opacity-80 transition-opacity"
+                    >
+                      <FaGlobe className="w-3 h-3" />
+                      Website
+                    </a>
                   )}
 
                   {project.github && (
-                    <div className="mt-2">
-                      <a
-                        href={project.github}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-block bg-black text-[10px] text-white p-1.5 rounded-xl font-semibold hover:opacity-80"
-                      >
-                        <div className="flex items-center gap-1">
-                          <FaGithub className="w-2.5 h-2.5" />
-                          Source
-                        </div>
-                      </a>
-                    </div>
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 bg-black text-[10px] text-white px-3 py-1.5 rounded-md font-semibold hover:opacity-80 transition-opacity"
+                    >
+                      <FaGithub className="w-3 h-3" />
+                      Source
+                    </a>
                   )}
                 </div>
               </div>

@@ -3,12 +3,12 @@ import SweetDessert from "../assets/sweetdessert.png";
 import Xiujank from "../assets/xiujank.png";
 import Petadik from "../assets/petadik.jpg";
 import TanyaKampus from "../assets/tanyakampus.jpeg";
-import GeneralAffair from "../assets/generalaffair.png"
+import GeneralAffair from "../assets/general-affair-web.jpg"
 
 const Projects = [
   {
     title: "Asset Management System",
-    date: "Mei 2025 - Present",
+    date: "Mei 2025 - Aug 2026",
     description:
       "a web app helping students find suitable universities and majors through aptitude tests. Served as backend developer, designing APIs to support recommendations.",
     image: [GeneralAffair],
@@ -25,7 +25,7 @@ const Projects = [
   },
   {
     title: "Tanya Kampus",
-    date: "Nov 2025 - Present",
+    date: "Nov 2025 - Jan",
     description:
       "a web app helping students find suitable universities and majors through aptitude tests. Served as backend developer, designing APIs to support recommendations.",
     image: [TanyaKampus],
@@ -54,7 +54,7 @@ const Projects = [
     title: "Xiujank Chocolate",
     date: "Jul 2025 - Aug 2025 ",
     description:
-      "Developed a modern and responsive company profile website for a premium chocolate brand, showcasing products and brand story.",
+      "Developed a modern and responsive company profile website for a premium chocolate brand, showcasing products and brand story, complete with an interactive product gallery.",
     image: Xiujank,
     techStack: ["React", "Vite", "TailwindCSS"],
     website: "https://xi-u-jank.vercel.app/",
