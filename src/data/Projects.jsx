@@ -25,7 +25,7 @@ const Projects = [
   },
   {
     title: "Tanya Kampus",
-    date: "Nov 2025 - Jan",
+    date: "Nov 2025 - Jan 2026",
     description:
       "a web app helping students find suitable universities and majors through aptitude tests. Served as backend developer, designing APIs to support recommendations.",
     image: [TanyaKampus],

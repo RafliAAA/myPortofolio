@@ -74,13 +74,6 @@ export default function Profile() {
         <h2 className="text-xl font-bold mb-4">Experience</h2>
         <ul className="space-y-4">
           <Experience
-            logo={SyaamilGroup}
-            title="Syaamil Group"
-            position="Freelance Fullstack Developer"
-            date="Mei 2026 - Aug 2026"
-            description="A web-based Asset Management System designed to support General Affairs operations. Features include asset procurement, handover, borrowing, returns, maintenance, disposal, and room booking, enabling more efficient and organized asset management."
-          />
-          <Experience
             logo={Disdik}
             title="Dinas Pendidikan Bandung Barat"
             position="Intern Fullstack Developer"
